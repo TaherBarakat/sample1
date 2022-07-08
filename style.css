@@ -3,8 +3,43 @@
 *::before {
    box-sizing: border-box;
 }
+* {
+   padding: 0;
+   margin: 0;
+   font-family: INTER, Arial, Helvetica, sans-serif;
+}
 :root {
    --color-primary: #1f2937;
    --color-secondary: rgb(58, 130, 246);
    --color-accent: #3a82f6;
+   --color-darker-text: #c2c5cb;
+}
+html {
+   font-size: 62.5%;
+}
+/* header */
+header {
+   padding: 2rem 20rem;
+   background-color: #1f2937;
+   display: flex;
+   font-size: 2rem;
+   color: var(--color-darker-text);
+   align-items: center;
+   justify-content: space-between;
+}
+
+header div ul {
+   list-style: none;
+   display: flex;
+   gap: 3rem;
+   margin: 0;
+}
+
+header div ul a {
+   font-weight: 400;
+   text-decoration: none;
+   color: var(--color-darker-text);
+}
+.header_logo {
+   font-weight: 1000;
 }
