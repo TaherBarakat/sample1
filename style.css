@@ -19,6 +19,7 @@ html {
 }
 /* header */
 header {
+   height: 10vh;
    padding: 2rem 20rem;
    background-color: #1f2937;
    display: flex;
@@ -42,4 +43,30 @@ header div ul a {
 }
 .header_logo {
    font-weight: 1000;
+}
+/* section 1 */
+section {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 8rem 20rem;
+   height: 90vh;
+}
+.section_1 {
+   font-size: 2rem;
+   background-color: #1f2937;
+   color: #c2c5cb;
+}
+.section_1 div {
+   flex: 1;
+   padding: 2rem;
+}
+
+button {
+   background-color: #3a82f6;
+   font-size: 1.5 rem;
+   border-radius: 1rem;
+   border: 0;
+   padding: 1rem 2rem;
+   color: #c2c5cb;
 }
