@@ -1,2 +1,2 @@
 # sample1
-a useless web page just to test some things
+a useless web page just to test somethings
