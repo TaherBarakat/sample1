@@ -1,0 +1,10 @@
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+:root {
+   --color-primary: #1f2937;
+   --color-secondary: rgb(58, 130, 246);
+   --color-accent: #3a82f6;
+}
